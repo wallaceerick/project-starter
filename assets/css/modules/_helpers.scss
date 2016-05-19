@@ -1,0 +1,41 @@
+// Helpers
+
+@import "mixins/animation";
+
+.wrapper {
+	position: relative;
+	display: block;
+	width: $page-width;
+	margin: 0 auto;
+}
+
+.column {
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.column-half {
+	width: 50%;
+}
+
+.column-third {
+	width: 33.333333333%;
+}
+
+.column-fourth {
+	width: 25%;
+}
+
+.column-fifth {
+	width: 20%;
+}
+
+.clear {
+	clear: both;
+}
+
+.icon-animated {
+	display: inline-block;
+	@include animation(rotation 1s infinite $linear);
+}

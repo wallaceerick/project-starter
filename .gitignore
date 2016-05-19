@@ -1,0 +1,15 @@
+desktop.ini
+Thumbs.db
+__MACOSX
+.sass-cache
+node_modules
+.ftppass
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+.DS_Store
+Dados.md
+npm-debug.log
+assets/css/application.css
+assets/js/application.js

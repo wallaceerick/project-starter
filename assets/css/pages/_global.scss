@@ -1,0 +1,52 @@
+// Global
+
+#page {
+
+}
+
+
+.featured-slider {
+	background-color: green;
+	padding: 20px;
+	@include gridle_state ('tablet') {
+        background: blue;
+		@include gridle_state ('landscape') {
+	        background: purple;
+	    }
+    }
+	@include gridle_state ('mobile') {
+        background: red;
+    }
+    .item {
+		line-height: $featured-slider-height;
+		color: white;
+		font-size: 150px;
+		text-align: center;
+    }
+	.owl-controls {
+		width: 100%;
+	}
+    .owl-buttons {
+    	div {
+    		cursor: pointer;
+    		padding: 10px 25px;
+    		color: white;
+    		background-color: black;
+    		text-transform: uppercase;
+    		&.owl-prev {
+    			float: left;
+    		}
+    		&.owl-next {
+    			float: right;
+    		}
+    	}
+    }
+}
+
+
+
+
+
+
+
+

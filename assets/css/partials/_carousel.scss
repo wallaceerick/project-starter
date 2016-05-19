@@ -1,0 +1,78 @@
+// Carousel
+.owl-carousel {
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+	
+	.owl-wrapper {
+		display: none;
+		position: relative;
+		&:after {
+			content: ".";
+			display: block;
+			clear: both;
+			visibility: hidden;
+			line-height: 0;
+			height: 0;
+		}
+	}
+
+	.owl-item {
+		float: left;
+	}
+
+	.owl-wrapper,
+	.owl-item {
+		@include backface-visibility(hidden);
+		@include transform(translate3d(0, 0, 0));
+	}
+
+	.owl-wrapper-outer {
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+		&.autoHeight {
+			@include transition(height 500ms $ease-in-out);
+		}
+	}
+
+	.owl-controls {
+		@include user-select(none);
+	} 
+}
+
+// Featured Slider
+.featured-slider  {
+	width: 100%;
+	height: auto;
+	.item {
+		height: $featured-slider-height;
+		background-color: gray;
+		img {
+			width: auto;
+			max-width: 100%;
+		}
+	}
+	.item-content {
+		display: table-cell;
+		vertical-align: middle;
+		text-transform: uppercase;
+		height: $featured-slider-height;
+		position: relative;
+	}
+
+	.owl-controls {
+		display: table!important;
+		margin: 0 auto;
+		padding-top: 24px;
+		position: relative;
+		.owl-pagination { 
+		} 
+		.owl-page {
+			float: left;
+			margin: 0 9px;
+		}
+	}
+}
+

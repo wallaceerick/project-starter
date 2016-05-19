@@ -1,0 +1,45 @@
+// Variables
+
+// Colours 
+$primary-color: 					#004781; // Azul
+$secundary-color: 					#d10019; // Vermelho
+$tertiary-color: 					#f1f1f1; // Cinza
+$quartenary-color: 					#3378b0; // Azul Claro
+
+$error-color:   					$secundary-color;
+$success-color:   					#00b000;
+
+$white: 							#fff;
+$black: 							#000;
+
+// Forms
+$input-color: 						$white;
+$input-border: 						#e5e5e5;
+$input-radius: 						4px;
+
+// Fonts
+$bold:       						'Gotham Bold';
+$medium:              			    'Gotham Medium';
+$light:              			    'Gotham Light';
+$book:              				'Gotham Book';
+
+$base-font-family:              	$medium;
+$base-font-size:              		12px;
+$base-font-color:              		#777;
+
+// Sizes
+$mobile: 							480px;
+$tablet:    						900px;
+
+// Pages
+$page-width: 						1000px;
+$featured-slider-height:  			495px;
+
+// Effects
+$linear: 							cubic-bezier(0, 0, 1, 1);
+$ease: 								cubic-bezier(0.25, 0.1, 0.25, 1);
+$ease-in: 							cubic-bezier(0.42, 0, 1, 1);
+$ease-out: 							cubic-bezier(0, 0, 0.58, 1);
+$ease-in-out: 						cubic-bezier(0.42, 0, 0.58, 1);
+
+

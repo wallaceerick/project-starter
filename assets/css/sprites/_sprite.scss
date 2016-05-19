@@ -1,0 +1,89 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+<<<<<<< HEAD:assets/css/sprites/_sprite.scss
+.icon-logo {
+=======
+.pes_sprite-close-button {
+  background-image: url(../images/sprite.png);
+  background-position: -520px -190px;
+  width: 75px;
+  height: 27px;
+}
+.pes_sprite-error-404 {
+>>>>>>> 256a2dfcdb497a54c87643fd01cf33ec5d7dd283:content/css/sprites/_sprite.scss
+  background-image: url(../images/sprite.png);
+  background-position: 0px 0px;
+  width: 360px;
+  height: 180px;
+}
+.pes_sprite-error-access-denied {
+  background-image: url(../images/sprite.png);
+  background-position: -370px 0px;
+  width: 380px;
+  height: 100px;
+}
+.pes_sprite-feature-arrow {
+  background-image: url(../images/sprite.png);
+  background-position: -464px -110px;
+  width: 30px;
+  height: 50px;
+}
+.pes_sprite-logo-junior {
+  background-image: url(../images/sprite.png);
+  background-position: -130px -190px;
+  width: 120px;
+  height: 80px;
+}
+.pes_sprite-logo-kids {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -190px;
+  width: 120px;
+  height: 80px;
+}
+.pes_sprite-logo-single {
+  background-image: url(../images/sprite.png);
+  background-position: -370px -110px;
+  width: 84px;
+  height: 55px;
+}
+.pes_sprite-logo-teens {
+  background-image: url(../images/sprite.png);
+  background-position: -260px -190px;
+  width: 120px;
+  height: 80px;
+}
+.pes_sprite-logo {
+  background-image: url(../images/sprite.png);
+  background-position: -390px -190px;
+  width: 120px;
+  height: 80px;
+}
+.icon-positivo {
+  background-image: url(../images/sprite.png);
+<<<<<<< HEAD:assets/css/sprites/_sprite.scss
+  background-position: -135px 0px;
+=======
+  background-position: -548px -110px;
+>>>>>>> 256a2dfcdb497a54c87643fd01cf33ec5d7dd283:content/css/sprites/_sprite.scss
+  width: 150px;
+  height: 40px;
+}
+.icon-ribbon {
+  background-image: url(../images/sprite.png);
+<<<<<<< HEAD:assets/css/sprites/_sprite.scss
+  background-position: 0px -65px;
+=======
+  background-position: -504px -110px;
+>>>>>>> 256a2dfcdb497a54c87643fd01cf33ec5d7dd283:content/css/sprites/_sprite.scss
+  width: 34px;
+  height: 48px;
+}
