@@ -9,7 +9,8 @@ $(document).ready(function(){
 
     // Cached selectors to improve performance
     var loader            = $('.js-loader'),
-        carousel       	  = $('.js-carousel');
+        carousel       	  = $('.js-carousel'),
+        maskDate          = $('.js-date');
 
     // Loader
     if (loader[0]){
@@ -40,6 +41,15 @@ $(document).ready(function(){
             }
        });
     }
+
+    // Mask
+    if (maskDate[0]){
+        maskDate.mask('99/99/9999', {
+            placeholder: ''
+        });
+    }
+
+    
 
 });
 

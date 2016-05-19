@@ -8,4 +8,6 @@
 		<script src="assets/js/_loader.js"></script>
 		<script src="assets/js/_menu.js"></script>
 		<script src="assets/js/_carousel.js"></script>
+		<!-- <script src="assets/js/_validade.js"></script> -->
+		<script src="assets/js/_mask.js"></script>
 		<script src="assets/js/_custom.js"></script>

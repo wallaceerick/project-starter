@@ -71,6 +71,8 @@
 			</div>
 		</section>
 
+		<input type="text" class="js-date" placeholder="Today is...">
+
 		<?php include('includes/footer.php'); ?>
 
 	</body>
