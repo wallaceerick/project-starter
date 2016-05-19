@@ -42,7 +42,7 @@
 
 	</head>
 
-	<body>
+	<body class="js-loader">
 		
 		<?php include('includes/header.php'); ?>
 

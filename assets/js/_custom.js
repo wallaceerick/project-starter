@@ -8,7 +8,21 @@
 $(document).ready(function(){
 
     // Cached selectors to improve performance
-    var carousel       	  = $('.js-carousel');
+    var loader            = $('.js-loader'),
+        carousel       	  = $('.js-carousel');
+
+    // Loader
+    if (loader[0]){
+        loader.jpreLoader({
+            showPercentage: true,
+            autoClose: true,
+            splashFunction: function() {
+                //console.log('Loading...');
+            } 
+        }, function() {
+            //console.log('Loaded!');
+        });
+    }
 
     // Featured Slider
     if (carousel[0]){

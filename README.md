@@ -16,9 +16,9 @@ Funcionamento dos recursos em Javascript.
 Módulo | Status
 ------------ | -------------
 Loader | ✓
-Carousel | ✗
+Carousel | ✓
+Dropdown | ✓
 Tabs | ✗
-Dropdown | ✗
 Accordion | ✗
 Validation | ✗
 
