@@ -8,16 +8,23 @@
 $(document).ready(function(){
 
     // Cached selectors to improve performance
-    var faturedSlider       	  = $('.js-featured-slider');
+    var carousel       	  = $('.js-carousel');
 
     // Featured Slider
-    if (faturedSlider[0]){
-        faturedSlider.owlCarousel({
-            slideSpeed:         2000,
-            pagination:         false,
-            navigation:         true,
-            items:       	    1
-        });
+    if (carousel[0]){
+        carousel.owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+       });
     }
 
 });

@@ -1,5 +1,9 @@
-// Animation
-// Usage: @include animation(name 2s linear infinite);
+// |------------------------------------------------------
+// |------------------------------------------------------
+// | Animation
+// | Usage: @include animation(name 2s linear infinite);
+// |------------------------------------------------------
+// |------------------------------------------------------
 
 @mixin animation-name($name...) {
     -webkit-animation-name: $name;

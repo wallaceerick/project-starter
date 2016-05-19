@@ -1,6 +1,9 @@
-// Arrows
-// Usage: 
-// @include arrow($width, $height, $direction, $color);
+// |------------------------------------------------------
+// |------------------------------------------------------
+// | Arrow
+// | Usage: @include arrow($width, $height, $direction, $color);
+// |------------------------------------------------------
+// |------------------------------------------------------
 
 @mixin arrow($width, $height, $direction, $color) {
 	display: block;

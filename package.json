@@ -1,9 +1,9 @@
 {
-	"name": "project-name",
+	"name": "project-starter",
 	"version": "1.0.0",
-	"title": "Project Name",
-	"description": "Project description...",
-	"homepage": "http://projecturl.com.br/",
+	"title": "Project Starter",
+	"description": "A tool to start new projects!",
+	"homepage": "http://wallaceerick.com.br/clientes/project-starter/",
 	"license": "(MIT OR Apache-2.0)",
 	"author": {
 		"name": "Wallace Erick",
@@ -12,7 +12,7 @@
 	}, 
 	"repository": {
 		"type": "git",
-		"url": "https://bitbucket.org/wallaceerick/project-name"
+		"url": "https://github.com/wallaceerick/project-starter"
 	},
 	"devDependencies": {
 		"grunt": "latest",

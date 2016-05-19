@@ -1,4 +1,4 @@
-->![Project Starter](https://raw.githubusercontent.com/wallaceerick/project-starter/master/assets/images/logo.png)<-
+![Project Starter](https://raw.githubusercontent.com/wallaceerick/project-starter/master/assets/images/logo.png)
 
 ## Sobre
 *Project Starter* é um boilerplate simples para uma inicialização e desenvolvimento mais rápido de novos projetos, conta com recursos simples em Javascript e estilo pré-definidos de CSS utilizando Sass e Grunt.
@@ -98,5 +98,4 @@ Gerados dinâmicamente pelo grunt, com as propriedades e classes de cada objeto.
 
 
 ## Changelog
- * *2015-21-01*   v0.0.0.1   Page: Teacher.
- * *2015-19-01*   v0.0.0.1   Initial Files.
+ * *2016-19-05*   v0.0.0.1   Initial Files.

@@ -1,20 +1,21 @@
+// |------------------------------------------------------
+// |------------------------------------------------------
+// | Title: Application CSS
+// | Author: Wallace Erick
+// | Author URI: http://wallaceerick.com.br/
+// | Version: 1.0
+// |------------------------------------------------------
+// |------------------------------------------------------
 
-/*
-Title: Application CSS
-Author: Wallace Erick
-Author URI: http://wallaceerick.com.br/
-Agency: Midia WEB
-Version: 1.0
-*/
+// |------------------------------------------------------
+// |------------------------------------------------------
+// | Libraries
+// |------------------------------------------------------
+// |------------------------------------------------------
 
-
-<<<<<<< HEAD:assets/css/application.scss
-// Libraries
-=======
-// Library
->>>>>>> 256a2dfcdb497a54c87643fd01cf33ec5d7dd283:content/css/application.scss
 @import "compass";
 @import "gridle/gridle";
+@import "mixins/mixins";
 
 // Config
 @import "modules/variables";
@@ -24,20 +25,7 @@ Version: 1.0
 @include gridle_register_state('tablet', (max-width: $tablet));
 @include gridle_register_state('land', (orientation: landscape));
 
-// Mixins
-@import "mixins/animation";
-@import "mixins/appearance";
-@import "mixins/arrow";
-@import "mixins/backface-visibility";
-@import "mixins/background-size";
-@import "mixins/ellipsis";
-@import "mixins/keyframes";
-@import "mixins/placeholder";
-@import "mixins/user-select";
-@import "mixins/vertical-align";
-
 // Modules
-// @import "modules/animations";
 @import "modules/variables";
 @import "modules/fonts";
 @import "modules/reset";
@@ -49,16 +37,7 @@ Version: 1.0
 @import "pages/global";
 
 // Partials
-<<<<<<< HEAD:assets/css/application.scss
-@import "partials/carousel";
-=======
 @import "partials/loader";
-@import "partials/feature-carousel";
-@import "partials/form";
-@import "partials/modal";
-@import "partials/validate";
-@import "partials/table";
->>>>>>> 256a2dfcdb497a54c87643fd01cf33ec5d7dd283:content/css/application.scss
-
+@import "partials/carousel";
 // Sprites
 @import "sprites/sprite";

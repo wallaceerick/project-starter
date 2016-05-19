@@ -1,4 +1,9 @@
-// Backface Visibility
+// |------------------------------------------------------
+// |------------------------------------------------------
+// | Backface Visibility
+// | Usage: @include backface-visibility(none);
+// |------------------------------------------------------
+// |------------------------------------------------------
 
 @mixin backface-visibility ($value){
     backface-visibility: $value;
