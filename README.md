@@ -1,16 +1,17 @@
-->![Project Starter](http://wallaceerick.com.br/clientes/project-starter/logo.png)<-
+->![Project Starter](https://raw.githubusercontent.com/wallaceerick/project-starter/master/assets/images/logo.png)<-
 
 ## Sobre
+*Project Starter* é um boilerplate simples para uma inicialização e desenvolvimento mais rápido de novos projetos, conta com recursos simples em Javascript e estilo pré-definidos de CSS utilizando Sass e Grunt.
 
 ## Suporte
 
-![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png) | ![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png) | ![Responsive](http://navegatium.com/assets/images/mobile.png)
+![IE](https://raw.githubusercontent.com/wallaceerick/project-starter/master/assets/images/icons/ie.png) | ![Chrome](https://raw.githubusercontent.com/wallaceerick/project-starter/master/assets/images/icons/chrome.png) | ![Firefox](https://raw.githubusercontent.com/wallaceerick/project-starter/master/assets/images/icons/firefox.png) | ![Safari](https://raw.githubusercontent.com/wallaceerick/project-starter/master/assets/images/icons/safari.png) | ![Responsive](https://raw.githubusercontent.com/wallaceerick/project-starter/master/assets/images/icons/responsive.png)
 --- | --- | --- | --- | --- | ---
-IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Tablets ✔
+IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Not Yet ✗
 
 ## Módulos
 
-Recursos em Javascript funcionando e pré-estilizados para acelerar o processo de desenvolvimento dos projetos.
+Funcionamento dos recursos em Javascript.
 
 Módulo | Status
 ------------ | -------------
