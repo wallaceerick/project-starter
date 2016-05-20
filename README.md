@@ -18,9 +18,10 @@ Módulo | Status
 Loader | ✓
 Carousel | ✓
 Dropdown | ✓
+Mask | ✓
+Validation | ✓
 Tabs | ✗
 Accordion | ✗
-Validation | ✗
 
 ## Documentação
 

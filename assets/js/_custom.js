@@ -49,6 +49,25 @@ $(document).ready(function(){
         });
     }
 
+    $(".js-validate").validate({
+        rules: {
+            name: 'required',
+            email: {
+                required: true,
+                email: true
+            },
+            date: 'required',
+            message: 'required'
+        },
+        messages: {
+            name: 'Digite seu nome.',
+            email: 'Digite um e-mail válido.',
+            date: 'Digite uma data válido.',
+            message: 'Digite sua mensagem.'
+        }
+    });
+
+
     
 
 });
