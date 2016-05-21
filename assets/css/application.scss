@@ -7,15 +7,11 @@
 // |------------------------------------------------------
 // |------------------------------------------------------
 
-// |------------------------------------------------------
-// |------------------------------------------------------
-// | Libraries
-// |------------------------------------------------------
-// |------------------------------------------------------
-
-@import "compass";
-@import "gridle/gridle";
-@import "mixins/mixins";
+// Libraries
+@import "compass",
+		"gridle/gridle",
+		"animate/animate",
+		"mixins/mixins";
 
 // Config
 @import "modules/variables";
@@ -25,21 +21,21 @@
 @include gridle_register_state('tablet', (max-width: $tablet));
 @include gridle_register_state('land', (orientation: landscape));
 
-// Modules
-@import "modules/variables";
-@import "modules/fonts";
-@import "modules/reset";
-@import "modules/helpers";
-@import "modules/header";
-@import "modules/footer";
+// Modules 
+@import "modules/variables",
+		"modules/fonts",
+		"modules/reset",
+		"modules/helpers",
+		"modules/header",
+		"modules/footer";
 
 // Pages
 @import "pages/global";
 
 // Partials
-@import "partials/loader";
-@import "partials/menu";
-@import "partials/carousel";
-@import "partials/tabs";
+@import "partials/loader",
+		"partials/menu",
+		"partials/carousel",
+		"partials/tabs";
 // Sprites
 @import "sprites/sprite";
