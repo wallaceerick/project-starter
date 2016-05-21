@@ -1,3 +1,11 @@
+// |------------------------------------------------------
+// |------------------------------------------------------
+// | Accordion JS v1.0.0
+// | http://www.wallaceerick.com.br/
+// | Copyright (c) 2016 Wallace Erick
+// |------------------------------------------------------
+// |------------------------------------------------------
+
 $(document).ready(function(){
 
 	// Cached selectors
@@ -15,13 +23,14 @@ $(document).ready(function(){
 	// Open the section
 	accordionButton.click(function(e) {
 		var currentAttrValue = $(this).attr('href');
-		
+
 		if($(e.target).is('.active')){
 
 			// Close all sections if is not multiple.
 			if(accordionMultiple == false){
 				closeAccordionSection();
 			}
+			
 			// Close only the opened section if is mutiple.
 			else {
 				$(this).removeClass('active');
@@ -42,4 +51,5 @@ $(document).ready(function(){
 
 		e.preventDefault();
 	});
+
 });

@@ -1,5 +1,5 @@
 <header id="header">
-	<div class="menu">
+	<nav class="menu js-menu">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a>
@@ -74,5 +74,5 @@
                 </ul>
             </li>
         </ul>
-    </div>
+    </nav>
 </header>

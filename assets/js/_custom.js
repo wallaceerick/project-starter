@@ -1,9 +1,10 @@
-/*!
- * Title: Custom JS
- * Author: Wallace Erick
- * Author URI: http://wallaceerick.com.br/
- * Version: 1.0
- */
+// |------------------------------------------------------
+// |------------------------------------------------------
+// | Custom JS
+// | http://wallaceerick.com.br/
+// | Copyright (c) 2016 Wallace Erick
+// |------------------------------------------------------
+// |------------------------------------------------------
 
 $(document).ready(function(){
 

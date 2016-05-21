@@ -23,7 +23,8 @@ Mask | ✓
 Validation | ✓
 Modal | ✓
 Tabs | ✓
-Accordion | ✗
+Accordion | ✓
+Responsive | ✗
 
 ## Documentação
 
