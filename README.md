@@ -11,16 +11,18 @@ IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Not Yet ✗
 
 ## Módulos
 
-Funcionamento dos recursos em Javascript.
+Funcionamento dos recursos em Javascript e CSS.
 
 Módulo | Status
 ------------ | -------------
+Animate | ✓
 Loader | ✓
 Carousel | ✓
 Dropdown | ✓
 Mask | ✓
 Validation | ✓
-Tabs | ✗
+Modal | ✓
+Tabs | ✓
 Accordion | ✗
 
 ## Documentação

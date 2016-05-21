@@ -71,7 +71,7 @@
 			</div>
 		</section>
 
-		<form class="js-validate" method="get" action="">
+		<form class="js-validate-contact" method="get" action="">
 			<fieldset>
 				<legend>Preencha o formulário.</legend>
 				<label for="name">Nome</label>
@@ -116,10 +116,23 @@
 		</div>
 
 		<br />
-		
-	   	<h1 id="animationSandbox" class="animate-demo">Animate.css</h1>
-	  
 
+		 <a href="#animatedModal" class="js-modal">Abrir Modal</a>
+
+		    <!-- Modal -->
+		    <div id="animatedModal">
+		        <div class="close-animatedModal"> 
+		            Close
+		        </div>
+		            
+		        <div class="modal-content">
+		            Conteúdo do modal...
+		        </div>
+		    </div>
+
+    	<br />
+		
+	   	<h1 id="animationSandbox" class="animate-demo">Animate.css</h1> 
  
 	      <select class="input js--animations">
 	        <optgroup label="Attention Seekers">
@@ -242,6 +255,31 @@
 	      </select>
 
 	      <button class="butt js--triggerAnimation">Animate it</button>
+
+	      <br />
+
+	      <div class="accordion js-accordion">
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-1">Accordion #1</a>
+				<div id="accordion-1" class="accordion-section-content">
+					<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+				</div>
+			</div>
+
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-2">Accordion #2</a>
+				<div id="accordion-2" class="accordion-section-content">
+					<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+				</div>
+			</div>
+
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-3">Accordion #3</a>
+				<div id="accordion-3" class="accordion-section-content">
+					<p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+				</div>
+			</div>
+		</div> <!-- /accordion-->
 	    
 
 		<?php include('includes/footer.php'); ?>

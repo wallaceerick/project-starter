@@ -7,10 +7,12 @@
 
 $(document).ready(function(){
 
-    // Cached selectors to improve performance
+    // Cached selectors to improve performance.
     var loader            = $('.js-loader'),
-        carousel       	  = $('.js-carousel'),
-        maskDate          = $('.js-date');
+        carouselDemo      = $('.js-carousel'),
+        maskDemo          = $('.js-date'),
+        modalDemo         = $('.js-modal'),
+        validateDemo      = $('.js-validate-contact');
 
     // Loader
     if (loader[0]){
@@ -25,9 +27,9 @@ $(document).ready(function(){
         });
     }
 
-    // Featured Slider
-    if (carousel[0]){
-        carousel.owlCarousel({
+    // Carousel
+    if (carouselDemo[0]){
+        carouselDemo.owlCarousel({
             loop: true,
             margin: 10,
             nav: true,
@@ -43,35 +45,46 @@ $(document).ready(function(){
     }
 
     // Mask
-    if (maskDate[0]){
-        maskDate.mask('99/99/9999', {
+    if (maskDemo[0]){
+        maskDemo.mask('99/99/9999', {
             placeholder: ''
         });
     }
 
-    $(".js-validate").validate({
-        rules: {
-            name: 'required',
-            email: {
-                required: true,
-                email: true
+    // Modal
+    if(modalDemo[0]){
+        modalDemo.animatedModal({
+            animatedIn:   'zoomIn',
+            animatedOut:  'bounceOut',
+            color:        '#39BEB9',
+            beforeOpen: function() {
+                //console.log('beforeOpen!');
             },
-            date: 'required',
-            message: 'required'
-        },
-        messages: {
-            name: 'Digite seu nome.',
-            email: 'Digite um e-mail válido.',
-            date: 'Digite uma data válido.',
-            message: 'Digite sua mensagem.'
-        }
-    });
+            afterClose: function() {
+                //console.log('afterClose!');
+            }
+        });
+    }
 
-
-    
+    // Validate
+    if(validateDemo[0]){
+        validateDemo.validate({
+            rules: {
+                name:     'required',
+                email: {
+                    required: true,
+                    email: true
+                },
+                date:    'required',
+                message: 'required'
+            },
+            messages: {
+                name:    'Digite seu nome.',
+                email:   'Digite um e-mail válido.',
+                date:    'Digite uma data válido.',
+                message: 'Digite sua mensagem.'
+            }
+        });
+    }
 
 });
-
-
-
-
