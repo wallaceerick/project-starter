@@ -4,7 +4,17 @@
 // |------------------------------------------------------
 // |------------------------------------------------------
 
-// 1. Arrow Move to Down
+// 1. Fade Out 
+@include keyframes(fade-out) {
+    0% {
+        @include opacity(1);
+    }  
+    100%   {
+       @include opacity(0);
+    }   
+}
+
+// 2. Arrow Move to Down
 @include keyframes(arrow-down) {
     0% {
         bottom: 15px;
@@ -17,11 +27,14 @@
     }   
 }
 
-// 2. Linear Rotation
+// 3. Linear Rotation
 @include keyframes(rotation) {
     0% {
         @include transform(rotate(0deg));
     } 
+    50% {
+        @include transform(rotate(180deg));
+    }
     100%   {
         @include transform(rotate(360deg));
     }  
