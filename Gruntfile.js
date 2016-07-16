@@ -106,7 +106,16 @@ module.exports = function(grunt){
                     base: '.'
                 }
             }
-        }
+        },
+
+        sassdoc: {
+
+      // Bare minimum.
+      bare: {
+        src: 'assets/css/**/*.scss',
+      }
+
+    }
 
     });
  
@@ -116,9 +125,11 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-php');
+    grunt.loadNpmTasks('grunt-sassdoc');
 
     // Tasks
     grunt.registerTask('default', ['uglify', 'sprite']);
+    grunt.registerTask('docs', ['sassdoc']);
     grunt.registerTask('server', ['php', 'browserSync', 'watch']);
     
 };
